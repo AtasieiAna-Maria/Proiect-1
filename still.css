@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+
+  }
+p {color: rgb(95, 95, 214); font-size: 15pt}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+
+@media not|only mediatype and (expressions) {
+  CSS-Code;
+}
