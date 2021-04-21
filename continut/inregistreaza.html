@@ -1,0 +1,65 @@
+<div class="main">
+  <div class="column-side" >
+      <aside>
+          <ul>
+              <li>Informatii generale</li>
+              <li>Informatii personale</li>
+          </ul>
+      </aside>
+  </div>
+  <div class="column-main">
+      <h2 id="register">Inregistrare utilizator nou</h2>
+      <form id="register-form">
+          <fieldset>
+              <legend>Informatii generale:</legend><br>
+              <label for="user">Nume utilizator:</label>
+              <input type="text" id="user" name="user"><br><br>
+              <label for="pass">Parola:</label>
+              <input type="password" id="pass" name="pass"><br><br>
+              <label for="fname">Nume:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Prenume:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="tel">Telefon:</label>
+              <input type="tel" id="tel" name="tel"><br><br>
+          </fieldset>
+          <fieldset>
+              <legend>Informatii personale:</legend><br>
+              <label for="sex">Sex:</label>
+              <select name="sex" id="sex">
+                  <option value="masculin">masculin</option>
+                  <option value="feminin">feminin</option>
+              </select><br><br>
+              <label for="pref_food">Mancarea preferata:</label>
+              <input list="food" id="pref_food" name="pref_food">
+              <datalist id="food">
+                  <option value="Chocolate">
+                  <option value="Pizza">
+                  <option value="KFC">
+                  <option value="Burger">
+                  <option value="Salad">
+                  <option value="Shaorma">
+                  <option value="Ice Cream">
+                  <option value="Chicken Breast">
+              </datalist><br><br>
+              <label for="color">Culoare preferata:</label>
+              <input type="color" id="color" name="color"><br><br>
+              <label for="born-time">Data nasterii:</label>
+              <input type="date" id="born-time" name="born-time"><br><br>
+              <label for="born-hour">Ora nasterii:</label>
+              <input type="time" id="born-hour" name="born-hour"><br><br>
+              <label for="age">Varsta:</label>
+              <input type="range" id="age" name="age" ><br><br>
+              <label for="personal-address">Adresa paginii personale:</label>
+              <input type="url" id="personal-address" name="personal-address"><br><br>
+              <label for="description">Descriere:</label>
+              <textarea name="description" id="description" cols="40" rows="5"></textarea><br><br>
+          </fieldset>
+          <br><input type="submit" value="Inregistreaza" disabled="disabled">
+      </form>
+
+
+  </div>
+</div>

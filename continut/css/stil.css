@@ -1,0 +1,199 @@
+html {
+  background-color: #d4cad6;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(51, 17, 73);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  border-radius: 20px;
+  border:5px solid rgb(41, 5, 82);
+  background:url(" https://static9.depositphotos.com/1022647/1081/v/600/depositphotos_10813712-stock-illustration-background-animal-footprints.jpg");
+  text-align: center;
+  padding: 10px;
+  margin:10px;
+}
+
+.main-header h1{
+  color: rgb(65, 17, 128); 
+  text-align: center;
+  font-size:50px;
+  
+}
+.main-header img{
+  text-align: left;
+  border:5px slateblue;
+  border-radius: 3px;
+}
+
+nav {
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(66, 16, 73);
+}
+
+nav a {
+  flex:auto;
+  color: #d3c3d4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a.active{
+  background-color: #cac8cc;
+  color: rgb(63, 18, 71);
+}
+
+nav a:hover {
+  background-color: rgb(210, 184, 231);
+  color: black;
+}
+
+@media screen and (min-width: 30rem) {
+  body {
+    display: flex;
+    flex-direction: column;
+    max-width: 75rem;
+    margin: auto;
+  }
+  nav, header {
+    order: -1;
+  }
+  .main{
+      display:flex;
+      flex-direction:row;
+  }
+  .column-side{
+      width:25%;
+      background-image: linear-gradient(rgb(179, 133, 209),rgb(135, 120, 192));
+      margin-top: 10px;
+  }
+
+  .column-main{
+      width:75%;
+      padding-top: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      background-color: rgb(145, 112, 165);
+      padding:10px;
+  }
+  
+}
+
+.images{
+    text-align: center;
+    padding:15px;
+    border:3px solid rgb(73, 8, 73);
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+footer {
+  background:rgb(136, 117, 136);
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+
+::marker{
+  color:rgb(70, 39, 85);
+  font-size:20px;
+}
+
+
+article{
+  margin:5px;
+  padding: 10px;    
+}
+
+table {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+table td, table th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #b7a1bb;
+color: white;
+}
+
+#register-form textarea,#register-form input,#register-form select {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid rgb(87, 14, 97);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+#register-form label {
+  font-size: 20px;
+}
+#register-form fieldset{
+  font-size: 20px;
+}
+
+#register-form input[type=submit] {
+  width: 100%;
+  background-color: #2b1e5f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#register-form {
+    width:70%;
+    margin-left: 16%;
+    margin-top: 10px;
+}
+
+
+#register-form input[type=submit]:hover {
+  background-color: #48444e;
+}
+
+aside {
+    font-size: 20px;
+}
+
+#register{
+    text-align: center;
+    font-size:30px;
+}
+
+
+#text{
+    padding-left:27%;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>33</varsta>
+        <adresa>
+            <strada>Tudor Vianu</strada>
+            <numar>25</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <ocupatie>Medic</ocupatie>
+        <gen>Masculin</gen>
+        <e-mail>popescu_ion@yahoo.com</e-mail>
+        <telefon>0773156221</telefon>
+    </persoana>
+    <persoana id="2">
+        <nume>Stanciu</nume>
+        <prenume>Viorica</prenume>
+        <varsta>45</varsta>
+        <adresa>
+            <strada>Scanteia</strada>
+            <numar>25</numar>
+            <localitate>Hunedoara</localitate>
+            <judet>Hunedoara</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <ocupatie>Zoolog</ocupatie>
+        <gen>Feminin</gen>
+        <e-mail>stanciu_vio@gmail.com</e-mail>
+        <telefon>0723111000</telefon>
+    </persoana>
+    <persoana id="3">
+        <nume>Raul</nume>
+        <prenume>Marian</prenume>
+        <varsta>85</varsta>
+        <adresa>
+            <strada>Simion Verde</strada>
+            <numar>5</numar>
+            <localitate>Mangalia</localitate>
+            <judet>Constanta</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <ocupatie>Pensionar</ocupatie>
+        <gen>Masculin</gen>
+        <e-mail>Raul@yahoo.com</e-mail>
+        <telefon>0735625323</telefon>
+    </persoana>
+    <persoana id="4">
+        <nume>George</nume>
+        <prenume>Florea</prenume>
+        <varsta>32</varsta>
+        <adresa>
+            <strada>Avenue Street</strada>
+            <numar>7</numar>
+            <localitate>New York</localitate>
+            <judet>New York</judet>
+            <tara>USA</tara>
+        </adresa>
+        <ocupatie>Antreprenor</ocupatie>
+        <gen>Masculin</gen>
+        <e-mail>george_2001@yahoo.com</e-mail>
+        <telefon>0735444123</telefon>
+    </persoana>
+</persoane>

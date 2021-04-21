@@ -1,0 +1,42 @@
+<aside>
+  <a href="#sectiune1" style="color: rgb(71, 12, 94); text-decoration: none; margin-right: 15px; margin-bottom: 10px;">Sectiunea1</a>
+  <a href="#sectiune2" style="color: rgb(71, 12, 94); text-decoration: none; margin-right: 15px; margin-bottom: 10px;">Sectiunea2</a>
+  <a href="#sectiune3" style="color: rgb(71, 12, 94); text-decoration: none; margin-right: 15px; margin-bottom: 10px;">Sectiunea3</a>
+  <br>
+</aside>
+
+<section id="sectiune1">
+  <p >Informatii generale</p>
+  <p id="data"></p>
+  <p id="url"></p>
+  <p id="location"></p>
+  <p id="browser"></p>
+  <p id="so"></p>
+</section>
+
+<section id="sectiune2">
+  <p id="winners">Extragere numere</p>
+  <div>
+      <input type="text" id="tb1" pattern="[A-Z0-9]{2}">
+      <input type="text"  id="tb2" pattern="[A-Z0-9]{2}">
+      <input type="text"  id="tb3" pattern="[A-Z0-9]{2}">
+      <input type="text"  id="tb4" pattern="[A-Z0-9]{2}"><br>
+      <input type="text"  id="tb5" pattern="[A-Z0-9]{2}">
+      <input type="text"  id="tb6" pattern="[A-Z0-9]{2}">
+      <input type="text"  id="tb7" pattern="[A-Z0-9]{2}">
+      <input type="text"  id="tb8" pattern="[A-Z0-9]{2}"><br>
+  </div>
+  <button class="inregistrare-button" onclick="extragereNumar()">Extragere numere</button>
+  <p id="guessed"></p>
+</section>
+
+<section id="sectiune3">
+  <label for="conturColor">Culoarea pentru contur: </label>
+  <input type="color" name="contur" id="contur"><br><br>
+
+  <label for="umplereColor">Culoarea pentru umplere: </label>
+  <input type="color" name="umplere" id="umplere"><br>
+
+  <canvas onclick="draw(event)" id="drawingCanvas" width="500" height="500"></canvas>
+</section>
+
